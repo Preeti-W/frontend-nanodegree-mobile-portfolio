@@ -1,0 +1,7 @@
+{
+    "name": "Project-5-Web-Performance-Optimization",
+    "version": "0.1",
+    "devDependencies": {
+        "grunt": "~0.4.5"
+    }
+}
