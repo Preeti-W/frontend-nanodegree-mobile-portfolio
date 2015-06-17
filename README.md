@@ -35,14 +35,17 @@ only needs to access the DOM once. It is moved into the global scope for
 updatePositions() to use.
 
 For the eventListener 'DOMContentLoaded', in the for loop, 200 pizzas aren't
-seen in rendering. I reduced it to 35.
+seen in rendering. I dynamically create the pizza amount based on height of user's
+web browser.
 
 To reduce painting, I used transform translateZ and translate3d and backface-visibility hidden
 CSS properties to have them in their own seperate layers.
 
 In changePizzaSizes(size) function, the variables dx and newwidth don't need to
 be iterated in the for loop because it's all the same width. The variables were
-put outside the for loop to reduce time.
+put outside the for loop to reduce time. Created a local variable randomPizzaContainer
+to store the elements by class name randomPizzaContainer to decrease the amount of
+times it needs to access the DOM.
 
 Website: http://micyang.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
 

@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/perfmatters.min.js': 'js/perfmatters.js'
+                    'production/perfmatters.min.js': 'js/perfmatters.js'
                 }
             }
         },
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'css/print.min.css': 'css/print.css'
+                    'production/print.min.css': 'css/print.css'
                 }
             }
         },
