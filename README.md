@@ -15,8 +15,9 @@ reducing CRP to one. I used ImageMagick to compress the images "views/images/piz
 and "img/profilepic.jpg" and used Grunt's tools to minify all of the necessary files to
 reduce the amount of bytes that needed to be downloaded.
 
-Website:
-Speed Test:
+Website: http://micyang.github.io/frontend-nanodegree-mobile-portfolio/
+
+Speed Test: https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fmicyang.github.io%2Ffrontend-nanodegree-mobile-portfolio%2F
 
 
 ## Part 2
@@ -43,7 +44,7 @@ In changePizzaSizes(size) function, the variables dx and newwidth don't need to
 be iterated in the for loop because it's all the same width. The variables were
 put outside the for loop to reduce time.
 
-Website:
+Website: http://micyang.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
 
 ## Setup locally (from original README)
 1. Check out the repository
