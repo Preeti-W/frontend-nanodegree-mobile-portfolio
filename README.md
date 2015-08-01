@@ -1,4 +1,4 @@
-## Project 5 Website Performance Optimization
+## Project 4 Website Performance Optimization
 There are two parts to this project.
 
 Part 1: The starting sample portfolio has a low Google PageSpeed score. The 
